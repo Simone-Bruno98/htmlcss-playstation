@@ -10,7 +10,12 @@ body{
 /* common */
 
 
-
+h2{
+    font-weight: 600;
+}
+h4{
+    font-size: 13px;
+}
 .button{
     padding: 10px 20px;
     font-size: 12px;
@@ -97,4 +102,15 @@ header img{
 }
 .newgames img{
     border-radius: 20px;
+}
+
+
+
+/* exploreconsole */
+
+
+
+.discoverbutton{
+    background-color: blue;
+    color: white;
 }
