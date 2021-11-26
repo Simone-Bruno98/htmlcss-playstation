@@ -10,9 +10,7 @@ body{
 /* common */
 
 
-h2{
-    font-weight: 600;
-}
+
 h4{
     font-size: 13px;
 }
@@ -51,6 +49,10 @@ header img{
 .shopbutton{
     background-color: orangered;
     color: white;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
 }
 
 
@@ -62,14 +64,13 @@ header img{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg)
 }
 .copertina,.newestgamebanner{
-    height: 500px;
     width: auto;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
 }
 .bannerimage{
-    width: 200px;
+    width: 80%;
 }
 
 
@@ -131,5 +132,53 @@ header img{
 }
 .exploreplusbutton{
     background-color: #D9DADC;
-    color: #3167E6;
+    color: #2D64E6;
+}
+
+
+
+/* playstationnow */
+
+
+.psnow{
+    background-color: #161C3B;
+    color: white;
+}
+.psnowlogo{
+    width: 250px;
+}
+.explorenowbutton{
+    background-color: #F5F5F5;
+    color: black;
+}
+
+
+
+/* socialmedia */
+
+
+
+.social img{
+    width: 150px;
+}
+
+
+
+/* footer */
+
+
+
+footer{
+    background-color: #3167E6;
+    color: white;
+}
+.footerplaylogo{
+    height: 80px;
+    width: auto;
+    display: block;
+    color: white;
+}
+.lenguageglobe{
+    height: 20px;
+    width: auto;
 }
