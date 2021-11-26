@@ -1,0 +1,27 @@
+HOVER ESERCIZIO SONY
+background image 1 section rimane centrata
+testo va a capo da solo
+nav con dropdown menu' a scomparsa
+pointer sul search del nav
+bottone accedi con hover come gli altri	
+bottone di acquista ora con border animato in hover
+hover sulle miniature dei giochi che le fanno sollevare leggermente
+doppio bordo sulla prima miniatura dei giochi (fatto con border E padding)
+
+
+
+
+ECCO LA PLAYSTATION 5
+
+
+
+tasto maggiori informazioni uguale ad acquista ora in prima section
+opacità in hover su tutto l' elemento degli accessori della play station
+
+play station plus
+Hover sul tasto psplus esterno (non mangia l' esterno, si crea un border)
+
+esplora play station now con hover uguale a tutti gli altri (tranne psplus)
+
+
+FIXED TOP PER BOOTSTRAP PER FIXARE IL NAV 
