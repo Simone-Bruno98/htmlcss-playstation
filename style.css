@@ -19,6 +19,8 @@ h4{
 .button{
     padding: 10px 20px;
     font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
     
 }
 div img{
@@ -34,7 +36,7 @@ header{
     background-color: black;
 }
 header img{
-    width: 60px;
+    width: 80px;
 }
 
 
@@ -113,4 +115,21 @@ header img{
 .discoverbutton{
     background-color: blue;
     color: white;
+}
+
+
+
+/* playstationplus */
+
+
+
+.playstationplus{
+    background-color: #BEBCBB;
+}
+.pspluslogo{
+    width: 250px;
+}
+.exploreplusbutton{
+    background-color: #D9DADC;
+    color: #3167E6;
 }
