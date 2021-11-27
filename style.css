@@ -39,20 +39,38 @@ header img{
 
 
 
+/* nav */
+
+
+
+.navigationbutton{
+    background-color: grey;
+    color: white;
+}
+.searchicon{
+    font-size: 30px;
+}
+
+
+
 /* copertina */
 
 
 
 .copertina{
     background-image:url(img/jumbo-bg.png);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: auto;
+    background-repeat: no-repeat;
+
+    background-position: center center
 }
 .shopbutton{
     background-color: orangered;
     color: white;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center center;
 }
 
 
@@ -63,7 +81,7 @@ header img{
 .newestgamebanner{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg)
 }
-.copertina,.newestgamebanner{
+.newestgamebanner{
     width: auto;
     background-repeat: no-repeat;
     background-size:cover;
@@ -84,16 +102,16 @@ header img{
     background-color: blue;
     color: white;
 }
-.imgshowcase{
-    border-radius: 20px;
-}
+
 
 .smallesttext{
     font-size: 12px;
     color: blue;
     margin-bottom: 0px;
 }
-
+.showcaseimage{
+    width: 80%;
+}
 
 /* newgames */
 
@@ -104,6 +122,9 @@ header img{
     color: white;
 }
 .newgames img{
+    border-radius: 20px;
+}
+.imgshowcase{
     border-radius: 20px;
 }
 
