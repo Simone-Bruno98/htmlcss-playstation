@@ -3,6 +3,7 @@ body{
     padding: 0 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 
@@ -42,13 +43,22 @@ header img{
 /* nav */
 
 
-
+.nav{
+    position: fixed;
+}
 .navigationbutton{
     background-color: grey;
     color: white;
 }
 .searchicon{
     font-size: 30px;
+}
+.dropdown{
+    position: initial;
+}
+.dropdown-menu{
+    width: 100%;
+
 }
 
 
