@@ -12,20 +12,23 @@ body{
 
 
 
-h4{
-    font-size: 13px;
-}
 .button{
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 600;
     display: inline-block;
+    
     
 }
 div img{
     width: 100%;
 }
-
+p{
+    font-size: 25px;
+}
+h2{
+    font-size: 35px;
+}
 
 
 /* header */
@@ -60,6 +63,13 @@ header img{
     width: 100%;
 
 }
+.navlist{
+    list-style: none;
+}
+.navtext{
+    font-size: 12px;
+    padding: 0px;
+}
 
 
 
@@ -75,13 +85,33 @@ header img{
     padding-bottom: 200px;
     width: auto;
     background-repeat: no-repeat;
-
-    background-position: center center
+    background-position: center top
 }
 .shopbutton{
-    background-color: orangered;
+    background-color: #CD3D0F;
     color: white;
 }
+
+
+
+/* gamesgrid */
+
+
+
+.selectedgamecontainer{
+    position: relative;
+}
+.selectedgame:hover{
+    position: relative;
+    bottom: 20px;
+    
+}
+.selectedgame img:hover{
+    border: none;
+    outline: 3px solid #2D64E6;
+    outline-offset: 3px;
+}
+
 
 
 /* newestgame */
@@ -100,6 +130,19 @@ header img{
 .bannerimage{
     width: 80%;
 }
+.newestgamebanner h2{
+    font-size: 45px;
+}
+.newestgamebanner p{
+    font-size: 20px;
+}
+.shopbutton{
+    border: 5px solid #CD3D0F;
+}
+.shopbutton:hover{
+    box-shadow: inset black 0 0 0 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
 
 
 
@@ -109,18 +152,28 @@ header img{
 
 
 .showcasebutton{
-    background-color: blue;
+    background-color: #2D64E6;
     color: white;
+    border: 5px solid #2D64E6;
 }
-
-
+.showcasebutton:hover{
+    box-shadow: inset white 0 0 0 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
 .smallesttext{
     font-size: 12px;
-    color: blue;
+    color: #2D64E6;
     margin-bottom: 0px;
 }
 .showcaseimage{
     width: 80%;
+}
+.showcasehover{
+    opacity: 70%;
+}
+.showcasehover:hover{
+    border-bottom: 3px solid #2D64E6;
+    opacity: 100%;
 }
 
 /* newgames */
@@ -145,10 +198,21 @@ header img{
 
 
 .discoverbutton{
-    background-color: blue;
+    background-color: #2D64E6;
     color: white;
+    border: 5px solid #2D64E6;
 }
-
+.discoverbutton:hover{
+    box-shadow: inset white 0 0 0 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.exploreconsole h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.exploreconsole h3{
+    font-size: 25px;
+}
 
 
 /* playstationplus */
@@ -165,6 +229,11 @@ header img{
     background-color: #D9DADC;
     color: #2D64E6;
 }
+.exploreplusbutton:hover{
+    border: none;
+    outline: 3px solid #D9DADC;
+    outline-offset: 5px;
+}
 
 
 
@@ -176,11 +245,24 @@ header img{
     color: white;
 }
 .psnowlogo{
-    width: 250px;
+    width: 400px;
 }
 .explorenowbutton{
     background-color: #F5F5F5;
     color: black;
+    border: 5px solid #F5F5F5;
+}
+.explorenowbutton:hover{
+    box-shadow: inset #161C3B 0 0 0 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.discoverbutton:hover{
+    box-shadow: inset white 0 0 0 5px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.psnow p{
+    font-size: 24px;
 }
 
 
